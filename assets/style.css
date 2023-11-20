@@ -6,6 +6,7 @@
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 header{
@@ -52,7 +53,6 @@ header nav ul li{
 }
 
 #cta{
-    width: 60%;
     margin: 50px auto 0 auto;
     font-family: 'Fredoka', sans-serif;
     font-family: 'Yantramanav', sans-serif;
@@ -134,12 +134,39 @@ section.discord-services:nth-child(even) .img-text figure{
 
 section.discord-services:last-child{
     text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
 }
 
+section.discord-services:last-child p{
+    margin: 0 auto;
+    width: 70%;
+}
+
+main h5{
+    font-size: 200%;
+}
+
+#scarica{
+    margin: 3% 0 5% 0;
+    color: white;
+    background-color: #8EA1E1;
+    padding: 1%;
+    border-radius: 30px;
+    border: none;
+    font-size: 100%   
+}
 
 footer{
-    background-color: #121212;
+    background-color: #23272A;
     color: white;
+    padding-top: 3%;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+footer h2,h4{
+    color: #7289DA;
 }
 
 footer ul li{
@@ -152,14 +179,57 @@ footer .container{
 }
 
 footer .container > div{
-    flex-grow: 1;
+    flex-basis: 40%;
 }
 
 footer .container>div:first-child{
-    flex-grow: 2;
+    flex-basis: 60%;
 }
 
 footer .footer-login{
     display: flex;
     justify-content: space-between;
+}
+
+footer img{
+    width: 5%;
+}
+ 
+footer span{
+    color: white;
+}
+
+footer div.container div ul li a{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-login{
+    padding: 2% 0 3% 0;
+} 
+
+#logofinale{
+    width: 120%;
+}
+
+#registrati{
+    margin: 3% 0 5% 0;
+    color: white;
+    background-color: #8EA1E1;
+    padding: 20%;
+    border-radius: 30px;
+    border: none;
+    font-size: 100%  
+}
+
+#social{
+    display:flex;
+}
+
+#social > li{
+    width: 10%;
+}
+
+.loghisocial{
+    width: 300%;
 }
