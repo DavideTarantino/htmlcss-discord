@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-size: cover;
+    background-image: url(./img/jumbo.png);
+    padding-bottom: 50px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+/*header nav figure,
+header nav ul,
+header nav a{
+    background-color: lightgoldenrodyellow;
+    border: 1px dashed black;
+}*/
+
+header nav ul{
+    padding-top: 1%;
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+header nav ul li{
+    /* display: inline-block; */
+
+    list-style-type: none;
+}
+
+#accedi{
+    background-color: white;
+    padding: 25%;
+    border-radius: 30px;
+    border: none;
+}
+
+#cta{
+    width: 60%;
+    margin: 50px auto 0 auto;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    text-align: center;
+    color: white;
+    width: 33%;
+}
+
+#iltuoposto{
+    font-size: 350%;
+    padding-bottom: 10%;
+}
+
+#scaricapermac{
+    background-color: white;
+    padding: 2%;
+    border-radius: 30px;
+    border: none;
+    font-size: 100%;
+}
+
+#cta-buttons{
+    padding: 5% 0% 20% 0%;
+}
+
+#onlineds{
+    color: white;
+    background-color: #23272A;
+    padding: 2%;
+    border-radius: 30px;
+    border: none;
+    font-size: 100%
+}
+
+.section-text{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+main h3{
+    font-size: 350%;
+}
+
+main p{
+    font-size: 120%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section{
+    padding-block: 20px;
+    /* background-color: black; */
+}
+
+section .img-text{
+    display: flex;
+    justify-content: center;
+}
+
+section .img-text figure{
+    flex-basis: 60%;
+}
+
+section .img-text .section-text{
+    flex-basis: 25%;
+}
+
+section.discord-services:nth-child(even){
+    background-color: lightgray;
+}
+
+section.discord-services:nth-child(even) .img-text figure{
+    order: 1;
+}
+
+section.discord-services:last-child{
+    text-align: center;
+}
+
+
+footer{
+    background-color: #121212;
+    color: white;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer .container{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+footer .container > div{
+    flex-grow: 1;
+}
+
+footer .container>div:first-child{
+    flex-grow: 2;
+}
+
+footer .footer-login{
+    display: flex;
+    justify-content: space-between;
+}
